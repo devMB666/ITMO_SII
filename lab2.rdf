@@ -1,0 +1,471 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2/"
+     xml:base="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-2="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Dominance -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Dominance">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Pokemon"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Pokemon"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#element -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#element">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Pokemon"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#hp -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#hp">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Pokemon"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#speed -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#speed">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Pokemon"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#stamina -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#stamina">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Pokemon"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#strength -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#strength">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Pokemon"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Pokemon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Pokemon"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#electric -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#electric">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Pokemon"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#element"/>
+                        <owl:hasValue>electric</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Pokemon"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#fire"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#grass"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#fire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#fire">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Pokemon"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#element"/>
+                        <owl:hasValue>fire</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Pokemon"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#grass"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#grass -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#grass">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Pokemon"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#element"/>
+                        <owl:hasValue>grass</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Pokemon"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#water -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#water">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Pokemon"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#element"/>
+                        <owl:hasValue>water</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Pokemon"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Beedrill -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Beedrill">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#grass"/>
+        <untitled-ontology-2:element>grass</untitled-ontology-2:element>
+        <untitled-ontology-2:hp rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">310</untitled-ontology-2:hp>
+        <untitled-ontology-2:speed rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</untitled-ontology-2:speed>
+        <untitled-ontology-2:stamina rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</untitled-ontology-2:stamina>
+        <untitled-ontology-2:strength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</untitled-ontology-2:strength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Blastoise -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Blastoise">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#water"/>
+        <untitled-ontology-2:element>water</untitled-ontology-2:element>
+        <untitled-ontology-2:hp rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1600</untitled-ontology-2:hp>
+        <untitled-ontology-2:speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</untitled-ontology-2:speed>
+        <untitled-ontology-2:stamina rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</untitled-ontology-2:stamina>
+        <untitled-ontology-2:strength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110</untitled-ontology-2:strength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Bulbasaur -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Bulbasaur">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#grass"/>
+        <untitled-ontology-2:element>grass</untitled-ontology-2:element>
+        <untitled-ontology-2:hp rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</untitled-ontology-2:hp>
+        <untitled-ontology-2:speed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</untitled-ontology-2:speed>
+        <untitled-ontology-2:stamina rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</untitled-ontology-2:stamina>
+        <untitled-ontology-2:strength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">230</untitled-ontology-2:strength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Butterfree -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Butterfree">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#grass"/>
+        <untitled-ontology-2:element>grass</untitled-ontology-2:element>
+        <untitled-ontology-2:hp rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">700</untitled-ontology-2:hp>
+        <untitled-ontology-2:speed rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9</untitled-ontology-2:speed>
+        <untitled-ontology-2:stamina rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</untitled-ontology-2:stamina>
+        <untitled-ontology-2:strength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</untitled-ontology-2:strength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Caterpie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Caterpie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#grass"/>
+        <untitled-ontology-2:element>grass</untitled-ontology-2:element>
+        <untitled-ontology-2:hp rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50</untitled-ontology-2:hp>
+        <untitled-ontology-2:speed rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7</untitled-ontology-2:speed>
+        <untitled-ontology-2:stamina rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</untitled-ontology-2:stamina>
+        <untitled-ontology-2:strength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</untitled-ontology-2:strength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Charizard -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Charizard">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#fire"/>
+        <untitled-ontology-2:element>fire</untitled-ontology-2:element>
+        <untitled-ontology-2:hp rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1100</untitled-ontology-2:hp>
+        <untitled-ontology-2:speed rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</untitled-ontology-2:speed>
+        <untitled-ontology-2:stamina rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7</untitled-ontology-2:stamina>
+        <untitled-ontology-2:strength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">100</untitled-ontology-2:strength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Charmander -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Charmander">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#fire"/>
+        <untitled-ontology-2:element>fire</untitled-ontology-2:element>
+        <untitled-ontology-2:hp rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">140</untitled-ontology-2:hp>
+        <untitled-ontology-2:speed rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9</untitled-ontology-2:speed>
+        <untitled-ontology-2:stamina rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</untitled-ontology-2:stamina>
+        <untitled-ontology-2:strength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">201</untitled-ontology-2:strength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Charmeleon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Charmeleon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#fire"/>
+        <untitled-ontology-2:element>fire</untitled-ontology-2:element>
+        <untitled-ontology-2:hp rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">800</untitled-ontology-2:hp>
+        <untitled-ontology-2:speed rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7</untitled-ontology-2:speed>
+        <untitled-ontology-2:stamina rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</untitled-ontology-2:stamina>
+        <untitled-ontology-2:strength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">230</untitled-ontology-2:strength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Ivysaur -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Ivysaur">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#grass"/>
+        <untitled-ontology-2:element>grass</untitled-ontology-2:element>
+        <untitled-ontology-2:hp rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">540</untitled-ontology-2:hp>
+        <untitled-ontology-2:speed rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</untitled-ontology-2:speed>
+        <untitled-ontology-2:stamina rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9</untitled-ontology-2:stamina>
+        <untitled-ontology-2:strength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">100</untitled-ontology-2:strength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Kakuna -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Kakuna">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#grass"/>
+        <untitled-ontology-2:element>grass</untitled-ontology-2:element>
+        <untitled-ontology-2:hp rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</untitled-ontology-2:hp>
+        <untitled-ontology-2:speed rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</untitled-ontology-2:speed>
+        <untitled-ontology-2:stamina rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</untitled-ontology-2:stamina>
+        <untitled-ontology-2:strength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23</untitled-ontology-2:strength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Metapod -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Metapod">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#grass"/>
+        <untitled-ontology-2:element>grass</untitled-ontology-2:element>
+        <untitled-ontology-2:hp rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">210</untitled-ontology-2:hp>
+        <untitled-ontology-2:speed rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</untitled-ontology-2:speed>
+        <untitled-ontology-2:stamina rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</untitled-ontology-2:stamina>
+        <untitled-ontology-2:strength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">990</untitled-ontology-2:strength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Nidoran -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Nidoran">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#electric"/>
+        <untitled-ontology-2:element>electric</untitled-ontology-2:element>
+        <untitled-ontology-2:hp rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">150</untitled-ontology-2:hp>
+        <untitled-ontology-2:speed rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</untitled-ontology-2:speed>
+        <untitled-ontology-2:stamina rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</untitled-ontology-2:stamina>
+        <untitled-ontology-2:strength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">69</untitled-ontology-2:strength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Pikachu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Pikachu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#electric"/>
+        <untitled-ontology-2:element>electric</untitled-ontology-2:element>
+        <untitled-ontology-2:hp rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">166</untitled-ontology-2:hp>
+        <untitled-ontology-2:speed rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9</untitled-ontology-2:speed>
+        <untitled-ontology-2:stamina rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</untitled-ontology-2:stamina>
+        <untitled-ontology-2:strength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11</untitled-ontology-2:strength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Raichu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Raichu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#electric"/>
+        <untitled-ontology-2:element>electric</untitled-ontology-2:element>
+        <untitled-ontology-2:hp rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">866</untitled-ontology-2:hp>
+        <untitled-ontology-2:speed rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10</untitled-ontology-2:speed>
+        <untitled-ontology-2:stamina rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10</untitled-ontology-2:stamina>
+        <untitled-ontology-2:strength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14</untitled-ontology-2:strength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Sandshrew -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Sandshrew">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#grass"/>
+        <untitled-ontology-2:element>grass</untitled-ontology-2:element>
+        <untitled-ontology-2:hp rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">90</untitled-ontology-2:hp>
+        <untitled-ontology-2:speed rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</untitled-ontology-2:speed>
+        <untitled-ontology-2:stamina rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</untitled-ontology-2:stamina>
+        <untitled-ontology-2:strength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">87</untitled-ontology-2:strength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Sandslash -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Sandslash">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#grass"/>
+        <untitled-ontology-2:element>grass</untitled-ontology-2:element>
+        <untitled-ontology-2:hp rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">250</untitled-ontology-2:hp>
+        <untitled-ontology-2:speed rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</untitled-ontology-2:speed>
+        <untitled-ontology-2:stamina rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</untitled-ontology-2:stamina>
+        <untitled-ontology-2:strength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">95</untitled-ontology-2:strength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Squirtle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Squirtle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#water"/>
+        <untitled-ontology-2:element>water</untitled-ontology-2:element>
+        <untitled-ontology-2:hp rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">90</untitled-ontology-2:hp>
+        <untitled-ontology-2:speed rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9</untitled-ontology-2:speed>
+        <untitled-ontology-2:stamina rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9</untitled-ontology-2:stamina>
+        <untitled-ontology-2:strength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</untitled-ontology-2:strength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Venusaur -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Venusaur">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#grass"/>
+        <untitled-ontology-2:element>grass</untitled-ontology-2:element>
+        <untitled-ontology-2:hp rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1800</untitled-ontology-2:hp>
+        <untitled-ontology-2:speed rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</untitled-ontology-2:speed>
+        <untitled-ontology-2:stamina rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</untitled-ontology-2:stamina>
+        <untitled-ontology-2:strength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</untitled-ontology-2:strength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Wartortle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Wartortle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#water"/>
+        <untitled-ontology-2:element>water</untitled-ontology-2:element>
+        <untitled-ontology-2:hp rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">400</untitled-ontology-2:hp>
+        <untitled-ontology-2:speed rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</untitled-ontology-2:speed>
+        <untitled-ontology-2:stamina rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</untitled-ontology-2:stamina>
+        <untitled-ontology-2:strength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20</untitled-ontology-2:strength>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Weedle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#Weedle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mikhailb/ontologies/2023/8/untitled-ontology-2#grass"/>
+        <untitled-ontology-2:element>grass</untitled-ontology-2:element>
+        <untitled-ontology-2:hp rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</untitled-ontology-2:hp>
+        <untitled-ontology-2:speed rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</untitled-ontology-2:speed>
+        <untitled-ontology-2:stamina rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9</untitled-ontology-2:stamina>
+        <untitled-ontology-2:strength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</untitled-ontology-2:strength>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
